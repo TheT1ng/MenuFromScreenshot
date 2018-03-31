@@ -1,9 +1,15 @@
 *{
-    font-family: Arial;
+    font-family: sans-serif;
+    cursor:default;
+}
+
+body{
+    background: #333;
 }
 
 #back{
-    padding: 0;
+    margin: auto;
+    width:700px;
 }
 
 #top{
@@ -14,21 +20,51 @@
 
 span{
     color:white;
+    margin-left: 20px;
 }
 
 #main{
     background: #FFFFFF;
-    border: 1px solid black;
+    padding: 1px 7px 8px 7px;
 }
 
 .card{
     background: #F2F2F2;
-    padding: 4px;
+    padding: 4px 4px 0 4px;
     margin: 5px;
+}
+
+.textTop{
+    margin-top:4px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #999;
+    line-height: 20px;
+}
+
+.textMid{
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: #999;
+    line-height: 15px;
+}
+
+.textBot{
+    font-size: 17px;
+    color: #FF8C00;
+    font-weight: bold;
 }
 
 .cardBot{
     background: #FF8C00;
     padding: 4px;
     margin: 5px;
+}
+
+.card:hover{
+
+}
+
+.cardBot:hover{
+    background: #FAFAD2;
 }
